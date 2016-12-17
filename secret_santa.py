@@ -9,6 +9,7 @@ def secretSanta(nameList):
     This function creates a random secret santa list from the nameList
     """
     #register = []
+    nameList.sort()
     drawingList = copy.deepcopy(nameList)
     done = False
     register = []
